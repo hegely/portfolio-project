@@ -1,0 +1,46 @@
+body {
+    font-family: PT Sans;
+	overflow-x: hidden !important;
+}
+
+.container {
+    max-width: 100% !important;
+	overflow-x: hidden !important;
+}
+
+hr {
+	border-top: 3px solid #7d97ad;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.feat {
+    color: #7d97ad;
+	font-weight: normal;
+}
+
+.my-name {
+    font-size: 50px;
+	font-weight: lighter;
+}
+
+.portfolio-title {
+	color: #2d3c49;
+	font-weight: bold;
+}
+
+.portfolio-box {
+	margin-bottom: 15px;
+}
+
+.footer {
+	margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.portfolio-box {
+		margin-bottom: 25px;
+	}
+}
